@@ -25,9 +25,8 @@ specific string patterns if found giggle-bot responds based on
 particular pattern
 */
 
-bot.respondTo('giggle help', (message, channel, user) => { 
-        bot.send(' - To make me crack a random joke type \`joke\`\n\
-        - To make me joke about a friend or anyone, type \`joke <username>\` ', channel);
+bot.respondTo('hello', (message, channel, user) => { 
+        bot.send(' Hello to you too.', channel);
     },
      true);
 
