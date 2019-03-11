@@ -30,6 +30,11 @@ bot.respondTo('hello', (message, channel, user) => {
     },
      true);
 
+bot.respondTo('hi', (message, channel, user) => { 
+        bot.send(' Sup.', channel);
+    },
+     true);
+
 bot.respondTo('joke', (message, channel, user) => {
 
     let tokenArr = message.text.split(' ');
